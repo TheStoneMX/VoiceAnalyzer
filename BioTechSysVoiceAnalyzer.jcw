@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspace>
+	<settings>
+		<label>BioTechSysVoiceAnalyzer</label>
+	</settings>
+	<users>
+		<user>
+			<path>BioTechSysVoiceAnalyzer.jcu</path>
+		</user>
+	</users>
+	<projects>
+		<project>
+			<path>BioTechSysVoiceAnalyzer.jcp</path>
+		</project>
+	</projects>
+</workspace>
