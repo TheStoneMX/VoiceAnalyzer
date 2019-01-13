@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp
+      spec="1.5+"
+      codebase="http://www.free.pages.at/clauer/WebStart"
+      href="SonogramWebStart.jnlp">
+  <information>
+    <title>Sonogram Visible Speech</title>
+    <vendor>Christoph Lauer</vendor>
+    <icon href="WebStartIcon.gif"/>
+    <homepage href="http://www.christoph-lauer.de"/>
+    <description>Sonogram Visible Speech</description>
+    <description kind="short">An Acoustical Signal Processing Tool</description>
+    <icon href="WebStartIcon.gif"/>
+    <icon kind="splash" href="WebStartSplash.jpg"/>
+    <offline-allowed/>
+  </information>
+  <security>
+      <all-permissions/>
+  </security>
+  <resources>
+    <j2se version="1.5+" java-vm-args="-Xms128m -Xmx512m"/>
+    <jar href="SonogramWebStart.jar"/>
+  </resources>
+  <application-desc main-class="de.dfki.sonogram.Sonogram"/>
+</jnlp>
+
